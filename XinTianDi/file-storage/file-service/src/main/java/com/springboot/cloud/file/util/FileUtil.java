@@ -39,7 +39,7 @@ public class MinioFileUtil {
     private final MinioClient client;
 
     /**
-     * 创建bucket
+     * create bucket
      *
      * @param bucketName 存储空间(桶)
      */

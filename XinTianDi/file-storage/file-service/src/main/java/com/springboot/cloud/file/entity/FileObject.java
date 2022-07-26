@@ -13,10 +13,8 @@ import javax.validation.constraints.NotBlank;
 @ApiModel
 @Data
 public class FileObject {
-    @NotBlank(message = "不能为空")
-    @ApiModelProperty("文件名")
+
     private String fileName;
-    @NotBlank(message = "不能为空")
-    @ApiModelProperty("存储空间(桶)")
+
     private String bucketName;
 }
